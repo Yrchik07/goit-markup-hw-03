@@ -36,9 +36,9 @@ img{
 }
 .container{
     display: flex;
-    min-width: 1158px;
-    padding-left: 156px;
-    padding-right: 156px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 1158px;
 }
 section{
     padding-top: 120px;
@@ -47,6 +47,9 @@ section{
 }
 
 /*header*/
+.top_line{
+    border-bottom: 1px solid #e7e9fc;
+}
 header .container{
     display: flex;
     justify-content: space-between;
@@ -58,6 +61,9 @@ header .container{
 nav{
     display: flex;
     justify-content: space-between;
+}
+.navigation{
+    align-items: center;
 }
 .navigation_menu{
  display: flex;
@@ -73,6 +79,8 @@ nav{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px;
+    padding: 24px 0;
 }
 .navigation_text{
     color: #2e2f42;
