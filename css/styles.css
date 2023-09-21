@@ -43,6 +43,7 @@ img{
 section{
     padding-top: 120px;
     padding-bottom: 120px;
+    min-width: 1440px;
 }
 
 /*header*/
@@ -194,6 +195,15 @@ display: block;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    padding-bottom: 72px;
+}
+.portfolio_menu{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 24px;
+    max-width: 1440px;
+    text-align: center;
 }
 .portfolio_subtitle {
     font-weight: 500;
@@ -208,8 +218,14 @@ display: block;
 }
 
 /*footer*/
+.basement .container{
+    display: block;
+}
 .basement{
     background-color:  #2e2f42;
+    min-height: 312px;
+    padding-top: 101px;
+
 }
 .basement_link{
     font-family: "Raleway", sans-serif;
@@ -226,4 +242,6 @@ display: block;
 .basement_text{
     color: #F4F4FD;
     letter-spacing: 0.02em;
+    max-width: 264px;
+padding-top: 17px;
 }
