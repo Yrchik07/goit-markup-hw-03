@@ -246,6 +246,7 @@ display: block;
     max-width: 1440px;
     text-align: center;
     row-gap: 48px;
+    column-gap: 24px;
 }
 .portfolio_blok{
     padding: 32px 16px;
@@ -259,6 +260,7 @@ display: block;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 .portfolio_text {
     font-size: 16px;
