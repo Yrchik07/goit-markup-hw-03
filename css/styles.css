@@ -235,15 +235,21 @@ display: block;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 .portfolio_menu{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 24px;
     max-width: 1440px;
     text-align: center;
+    row-gap: 48px;
+}
+.portfolio_blok{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
 }
 .portfolio_subtitle {
     font-weight: 500;
