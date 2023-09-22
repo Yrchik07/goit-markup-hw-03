@@ -7,15 +7,18 @@ body{
     line-height: 1.5;
 }
 .visually-hidden {
-    clip: rect(0 0 0 0);
-    clip-path: inset(50%);
-    height: 1px;
-    overflow: hidden;
     position: absolute;
-    white-space: nowrap;
     width: 1px;
-  }
-button{
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }button{
     cursor: pointer;
 }
 a:hover, a:focus{
@@ -92,13 +95,11 @@ nav{
 .navigation_text{
     color: #2e2f42;
 }
-.navigation_item{
-    padding: 24px 0;
-}
 .navigation_link{
     font-weight: 500;
     color:  #2e2f42;
     letter-spacing: 0.02em;
+    padding: 24px 0;
 }
 
 .contact{
@@ -119,13 +120,14 @@ nav{
 /*main*/
 /*section one*/
 .solutions{
-    padding: 0;
     text-align: center;
+    padding: 0;
 }
 .solutions .container{
     display: block;
     background-color: #2e2f42;
-    padding: 188px;
+    padding: 188px 0;
+
 }
 .solutions_title{
     font-size: 56px;
@@ -183,8 +185,8 @@ nav{
 .team .container{
 display: block;
 }
-.team_titl {
-    padding-bottom: 72px;
+.team_titl{
+    margin-bottom: 72px; 
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -199,6 +201,10 @@ display: block;
 }
 .team_item {
     background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
+}
+.team_blok{
+    padding: 32px 0;
 }
 .team_img {
 }
@@ -208,10 +214,13 @@ display: block;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    text-align: center;
+    margin-bottom: 8px;
 }
 .team_text {
     font-size: 16px;
     letter-spacing: 0.02em;
+    text-align: center; 
 }
 
 /*section four*/
