@@ -164,7 +164,7 @@ nav{
     justify-content: center;
 }
 .plan_item{
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
 }
 .plan_title{
     font-weight: 500;
