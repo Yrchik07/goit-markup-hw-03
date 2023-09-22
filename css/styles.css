@@ -120,15 +120,12 @@ nav{
 /*main*/
 /*section one*/
 .solutions{
-    margin: 0 auto;
+    background-color: #2e2f42;
     text-align: center;
-    padding: 0;
+    padding: 188px 0;
 }
 .solutions .container{
     display: block;
-    background-color: #2e2f42;
-    padding: 188px 0;
-
 }
 .solutions_title{
     font-size: 56px;
@@ -167,7 +164,6 @@ nav{
     justify-content: center;
 }
 .plan_item{
-    width: calc((100% - 72px) / 4);
 }
 .plan_title{
     font-weight: 500;
@@ -176,6 +172,8 @@ nav{
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin-bottom: 8px;
+    width: calc((100% - 72px) / 4);
+
 }
 .plan_text{
     letter-spacing: 0.02em;
@@ -252,7 +250,6 @@ display: block;
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px;
 }
 .portfolio_subtitle {
     font-weight: 500;
