@@ -161,11 +161,10 @@ nav{
 .plan_menu{
     display: flex;
     gap: 24px;
-    padding-left: 156px;
-    padding-right: 156px;
     justify-content: center;
 }
 .plan_item{
+    width: calc((100% - 72px) / 4);
 }
 .plan_title{
     font-weight: 500;
@@ -174,7 +173,6 @@ nav{
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin-bottom: 8px;
-    flex-basis: calc((100% - 72px) / 4);
 }
 .plan_text{
     letter-spacing: 0.02em;
